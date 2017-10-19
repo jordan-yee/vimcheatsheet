@@ -5,6 +5,7 @@
   * [Files](#files)
   * [Windows](#windows)
   * [Tabs](#tabs)
+
 **[Vim Plugins](#vim-plugins)**
  * [Foo](#foo)
 
