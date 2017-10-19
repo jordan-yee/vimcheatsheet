@@ -5,7 +5,7 @@
 |---------------------------|-----------------------------------|
 | [Files](#files)           | [vim-table-mode](#vim-table-mode) |
 | [Windows](#windows)       | [ctrlp](#ctrlp)                   |
-| [Tabs](#tabs)             |                                   |
+| [Tabs](#tabs)             | [vim-fireplace](#vim-fireplace)   |
 
 # Vim Core
 ### Files
@@ -70,4 +70,18 @@
 | CTRL-Y             | Create a new file, including parent directories.    |
 | CTRL-Z             | Mark files.                                         |
 | CTRL-O             | Open marked files.                                  |
+
+### [vim-fireplace](https://github.com/tpope/vim-fireplace)
+*Note: You need to start a REPL for most fireplace commands to work.*  
+
+| **Command or Key** | **Description**                                             |
+|:-------------------|:------------------------------------------------------------|
+| K                  | Lookup symbol with doc.                                     |
+| [d                 | Lookup symbol with source.                                  |
+| [<C-D>             | Jump to symbol definition.                                  |
+| gf                 | Vim go to file command--works on namespaces.                |
+| cpp                | Evaluate innermost form.                                    |
+| cp{motion}         | Evaluate the code indicated by {motion}.                    |
+| cqc                | Open command line window.                                   |
+| cqq                | Open command line window, prepopulated with innermost form. |
 
