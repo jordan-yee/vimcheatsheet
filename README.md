@@ -8,7 +8,7 @@
 ### Files
 | Command            | Keyboard Shortcut      | Description          |
 |:-------------------|:-----------------------|:---------------------|
-| :edit              |                        | Open a file to edit. |
+| edit               |                        | Open a file to edit. |
 
 # Vim Plugins
 ### Foo
