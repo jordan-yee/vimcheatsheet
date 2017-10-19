@@ -12,6 +12,7 @@
 | edit               |                        | Open a file to edit. If given a directory, netrw will be opened. |
 
 | Command | Keyboard Shortcut |
+|---------|-------------------|
 
 Description of the command.
 
