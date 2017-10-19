@@ -10,13 +10,16 @@
 | :edit \<file or directory\> | :edit $MYVIMRC | :hide edit foo.txt |
 |-----------------------------|----------------|--------------------|
 
-
 Open a file to edit. If given a directory, netrw will be opened.  
 Edit your .vimrc file.  
 Edit a different file without saving changes to the current file.  
 
+#### Table Start
+
 | one | two | three |
 |-----|-----|-------|
+
+#### Table End
 
 See the list of files opened in Vim.  
 Add files to open in Vim  
