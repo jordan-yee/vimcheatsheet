@@ -4,6 +4,7 @@
 **[Vim Core](#vim-core)**  
   [Files](#files)  
   [Windows](#windows)  
+  [Tabs](#tabs)
 **[Vim Plugins](#vim-plugins)**  
 
 # Vim Core
