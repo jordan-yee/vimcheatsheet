@@ -13,7 +13,6 @@
 
 | Command | Keyboard Shortcut |
 |---------|-------------------|
-
 Description of the command.
 
 # Vim Plugins
