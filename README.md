@@ -33,7 +33,7 @@
 | CTRL-W = | Equalize window sizes. |
 | CTRL-W o | Close all but current window. |
 | CTRL-W\_CTRL-N | Open a new empty file in a split |
-| :sp/:vsp foo.c | Open a file in a split. |
+| :sp/:vsp file.c | Open a file in a split. |
 
 ### Tabs
 
