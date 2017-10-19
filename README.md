@@ -8,7 +8,7 @@
 ### Files
 
 | Command or Key | Description |
-|----------------|-------------|
+|:---------------|:------------|
 | :edit | Edit a file. |
 | :edit $MYVIMRC | Edit your vimrc file. |
 | :edit .\dir | Open directory with netrw. |
