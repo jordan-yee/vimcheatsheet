@@ -23,3 +23,7 @@ Add files to open in Vim, using wildcards.
 
 # Vim Plugins
 ### Foo
+
+| one | two | three |
+|-----|-----|-------|
+
