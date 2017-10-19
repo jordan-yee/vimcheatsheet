@@ -1,12 +1,12 @@
 # Vim Cheat Sheet
 #### A quick reference for how to do useful things in Vim.
 
-**[Vim](#vim)**  
+**[Vim Core](#vim-core)**  
   [Files](#files)  
   [Windows](#windows)  
 **[Vim Plugins](#vim-plugins)**  
 
-# Vim
+# Vim Core
 ### Files
 
 | **Command or Key** | **Description** |
@@ -33,6 +33,17 @@
 | CTRL-W o | Close all but current window. |
 | CTRL-W\_CTRL-N | Open a new empty file in a split |
 | :sp/:vsp foo.c | Open a file in a split. |
+
+### Tabs
+
+| **Command or Key** | **Description** |
+|:-------------------|:----------------|
+| :tabe file.c | Open a new tab. |
+| :tab sp | Open the current buffer in a new tab. |
+| :tabc | Close the current tab page. |
+| :tabo | Close all but the current tab page. |
+| CTRL-PageUp/Down or :gt/T | Switch between tab pages. |
+| :(+/-[N])tabm | Move tab. |
 
 # Vim Plugins
 ### Foo
