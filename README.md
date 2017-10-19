@@ -1,11 +1,11 @@
 # [Vim Cheat Sheet](https://jyee117.github.io/vimcheatsheet)
 #### A quick reference for how to do useful things in Vim.
 
-| **[Vim Core](#vim-core)** | **[Vim Plugins](#vim-plugins)** |
-|---------------------------|---------------------------------|
-| [Files](#files)           | [Foo](#foo)                     |
-| [Windows](#windows)       |                                 |
-| [Tabs](#tabs)             |                                 |
+| **[Vim Core](#vim-core)** | **[Vim Plugins](#vim-plugins)**   |
+|---------------------------|-----------------------------------|
+| [Files](#files)           | [vim-table-mode](#vim-table-mode) |
+| [Windows](#windows)       |                                   |
+| [Tabs](#tabs)             |                                   |
 
 # Vim Core
 ### Files
