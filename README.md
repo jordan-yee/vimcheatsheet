@@ -9,6 +9,7 @@
 
 # Vim Core
 ### Files
+
 | **Command or Key** | **Description** |
 |:-------------------|:----------------|
 | :e | Edit a file. |
@@ -19,6 +20,7 @@
 | :f filename.c | Change filename of buffer without saving the file. |
 
 ### Windows
+
 | **Command or Key** | **Description** |
 |:-------------------|:----------------|
 | CTRL-W s | Split window horizontally. |
@@ -34,6 +36,7 @@
 | :sp/:vsp foo.c | Open a file in a split. |
 
 ### Tabs
+
 | **Command or Key** | **Description** |
 |:-------------------|:----------------|
 | :tabe file.c | Open a new tab. |
