@@ -47,5 +47,5 @@
 | :(+/-[N])tabm | Move tab. |
 
 # Vim Plugins
-### Foo
+### [Foo](https://github.com/jyee117/vimcheatsheet)
 
