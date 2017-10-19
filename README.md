@@ -13,11 +13,7 @@
 | :e $MYVIMRC | Edit your vimrc file. |
 | :e .\dir | Open directory with netrw. |
 | :hid e | Edit a different file while retaining changes in current file. |
-| :ar | Display list of files. |
-| :ar foo.c bar.c | Add files. |
-| :N/:prev/:fir/:la | Switch between files. |
-| :sav filename.c | Save As |
-| CTRL-G | Print current file name. |
+| :sav filename.c | Save current buffer as filename.c. |
 | :f filename.c | Change filename of buffer without saving the file. |
 
 # Vim Plugins
