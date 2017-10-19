@@ -7,8 +7,8 @@
 # Vim
 ### Files
 
-| \:edit \<file or directory\> | \:edit \$MYVIMRC | \:hide edit foo\.txt |
-|------------------------------|------------------|----------------------|
+| :edit \<file or directory\> | :edit $MYVIMRC | :hide edit foo.txt |
+|-----------------------------|----------------|--------------------|
 
 Open a file to edit. If given a directory, netrw will be opened.  
 Edit your .vimrc file.  
