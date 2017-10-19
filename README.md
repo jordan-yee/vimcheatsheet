@@ -16,6 +16,22 @@
 | :sav filename.c | Save current buffer as filename.c. |
 | :f filename.c | Change filename of buffer without saving the file. |
 
+### Windows
+
+| **Command or Key** | **Description** |
+|:-------------------|:----------------|
+| CTRL-W s | Split window horizontally. |
+| CTRL-W v | Split window vertically. |
+| CTRL-W c | Close window. |
+| CTRL-W h/j/k/l/t/b | Move between windows. |
+| CTRL-W H/J/K/L/T/B | Move windows. |
+| CTRL-W _ | Maximize window height. |
+| CTRL-W | | Maximize window width. |
+| CTRL-W = | Equalize window sizes. |
+| CTRL-W o | Close all but current window. |
+| CTRL-W\_CTRL-N | Open a new empty file in a split |
+| :sp/:vsp foo.c | Open a file in a split. |
+
 # Vim Plugins
 ### Foo
 
