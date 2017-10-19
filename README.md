@@ -7,7 +7,7 @@
 # Vim
 ### Files
 
-| Command or Key | Description |
+| **Command or Key** | **Description** |
 |:---------------|:------------|
 | :edit | Edit a file. |
 | :edit $MYVIMRC | Edit your vimrc file. |
