@@ -29,7 +29,7 @@
 | CTRL-W h/j/k/l/t/b | Move between windows.            |
 | CTRL-W H/J/K/L     | Move window to edge.             |
 | CTRL-W _           | Maximize window height.          |
-| CTRL-W <pipe>      | Maximize window width.           |
+| CTRL-W \<pipe\>    | Maximize window width.           |
 | CTRL-W =           | Equalize window sizes.           |
 | CTRL-W o           | Close all but current window.    |
 | CTRL-W\_CTRL-N     | Open a new empty file in a split |
@@ -49,9 +49,9 @@
 # Vim Plugins
 ### [vim-table-mode](https://github.com/dhruvasagar/vim-table-mode)
 
-| **Command or Key** | **Description**                                   |
-|:-------------------|:--------------------------------------------------|
-| <leader>tm         | Toggle table-mode.                                |
-| <leader>tdd        | Delete row.                                       |
-| <leader>tdc        | Delete column.                                    |
-| i<pipe>/a<pipe>    | Inner/outer cell text object. Use with d, v, etc. |
+| **Command or Key**  | **Description**                                   |
+|:--------------------|:--------------------------------------------------|
+| \<leader\>tm        | Toggle table-mode.                                |
+| \<leader\>tdd       | Delete row.                                       |
+| \<leader\>tdc       | Delete column.                                    |
+| i\<pipe\>/a\<pipe\> | Inner/outer cell text object. Use with d, v, etc. |
