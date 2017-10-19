@@ -2,9 +2,9 @@
 #### A quick reference for how to do useful things in Vim.
 
 **[Vim Core](#vim-core)**  
-  [Files](#files)  
-  [Windows](#windows)  
-  [Tabs](#tabs)
+   [Files](#files)  
+   [Windows](#windows)  
+   [Tabs](#tabs)  
 **[Vim Plugins](#vim-plugins)**  
 
 # Vim Core
@@ -18,7 +18,7 @@
 | :hid e | Edit a different file while retaining changes in current file. |
 | :sav filename.c | Save current buffer as filename.c. |
 | :f filename.c | Change filename of buffer without saving the file. |
-
+  
 ### Windows
 
 | **Command or Key** | **Description** |
@@ -34,7 +34,7 @@
 | CTRL-W o | Close all but current window. |
 | CTRL-W\_CTRL-N | Open a new empty file in a split |
 | :sp/:vsp foo.c | Open a file in a split. |
-
+  
 ### Tabs
 
 | **Command or Key** | **Description** |
@@ -45,7 +45,8 @@
 | :tabo | Close all but the current tab page. |
 | CTRL-PageUp/Down or :gt/T | Switch between tab pages. |
 | :(+/-[N])tabm | Move tab. |
-
+  
+  
 # Vim Plugins
 ### Foo
 
