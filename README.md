@@ -7,30 +7,13 @@
 # Vim
 ### Files
 
-| :edit \<file or directory\> | :edit $MYVIMRC | :hide edit foo.txt |
-|-----------------------------|----------------|--------------------|
-
-Open a file to edit. If given a directory, netrw will be opened.
-Edit your .vimrc file.
-Edit a different file without saving changes to the current file.
-
-| one | two | three |
-|-----|-----|-------|
-
-See the list of files opened in Vim.
-Add files to open in Vim.
-Add files to open in Vim, using wildcards.
+| Command or Key | Description |
+|----------------|-------------|
+| :edit | Edit a file. |
+| :edit $MYVIMRC | Edit your vimrc file. |
+| :edit .\dir | Open directory with netrw. |
+| :hide edit | Edit a different file while retaining changes in current file. |
 
 # Vim Plugins
 ### Foo
 
-| one | two | three |
-|-----|-----|-------|
-|     |     |       |
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
