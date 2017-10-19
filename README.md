@@ -4,7 +4,7 @@
 | **[Vim Core](#vim-core)** | **[Vim Plugins](#vim-plugins)**   |
 |---------------------------|-----------------------------------|
 | [Files](#files)           | [vim-table-mode](#vim-table-mode) |
-| [Windows](#windows)       |                                   |
+| [Windows](#windows)       | [ctrlp](#ctrlp)                   |
 | [Tabs](#tabs)             |                                   |
 
 # Vim Core
@@ -55,3 +55,19 @@
 | \<leader\>tdd       | Delete row.                                       |
 | \<leader\>tdc       | Delete column.                                    |
 | i\<pipe\>/a\<pipe\> | Inner/outer cell text object. Use with d, v, etc. |
+
+### [ctrlp](https://github.com/ctrlpvim/ctrlp.vim)
+
+| **Command or Key** | **Description**                                     |
+|:-------------------|:----------------------------------------------------|
+| CTRL-P             | Open ctrlp find file menu.                          |
+| F5                 | Refresh file list.                                  |
+| CTRL-F/B           | Cycle search modes (file, buffer, mru).             |
+| CTRL-D             | Switch between path and filename only search modes. |
+| CTRL-J/K           | Navigate results.                                   |
+| CTRL-T/V/X         | Open selected entry in new tab or split.            |
+| CTRL-N/P           | Navigate prompt history.                            |
+| CTRL-Y             | Create a new file, including parent directories.    |
+| CTRL-Z             | Mark files.                                         |
+| CTRL-O             | Open marked files.                                  |
+
