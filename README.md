@@ -9,7 +9,7 @@
 
 | Command            | Keyboard Shortcut      | Description          |
 |--------------------|------------------------|----------------------|
-| edit               |                        | Open a file to edit. |
+| edit               |                        | Open a file to edit. If given a directory, netrw will be opened. |
 
 # Vim Plugins
 ### Foo
