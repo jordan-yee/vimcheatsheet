@@ -1,13 +1,11 @@
 # Vim Cheat Sheet
 #### A quick reference for how to do useful things in Vim.
 
-**[Vim Core](#vim-core)**
-  * [Files](#files)
-  * [Windows](#windows)
-  * [Tabs](#tabs)
-
-**[Vim Plugins](#vim-plugins)**
- * [Foo](#foo)
+| **[Vim Core](#vim-core)** | **[Vim Plugins](#vim-plugins)** |
+|---------------------------|---------------------------------|
+| [Files](#files) | [Foo](#foo) |
+| [Windows](#windows) | |
+| [Tabs](#tabs) | |
 
 # Vim Core
 ### Files
