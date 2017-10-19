@@ -1,10 +1,10 @@
 # Vim Cheat Sheet
 #### A quick reference for how to do useful things in Vim.
 
-* **[Vim](#vim)**
-  * [Files](#files)
-  * [Windows](#windows)
-* **[Vim Plugins](#vim-plugins)**
+**[Vim](#vim)**  
+  [Files](#files)  
+  [Windows](#windows)  
+**[Vim Plugins](#vim-plugins)**  
 
 # Vim
 ### Files
@@ -26,7 +26,7 @@
 | CTRL-W v | Split window vertically. |
 | CTRL-W c | Close window. |
 | CTRL-W h/j/k/l/t/b | Move between windows. |
-| CTRL-W H/J/K/L/T/B | Move windows. |
+| CTRL-W H/J/K/L | Move window to edge. |
 | CTRL-W _ | Maximize window height. |
 | CTRL-W | | Maximize window width. |
 | CTRL-W = | Equalize window sizes. |
