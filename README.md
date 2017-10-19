@@ -2,6 +2,8 @@
 #### A quick reference for how to do useful things in Vim.
 
 * **[Vim](#vim)**
+  * [Files](#files)
+  * [Windows](#windows)
 * **[Vim Plugins](#vim-plugins)**
 
 # Vim
