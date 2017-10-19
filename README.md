@@ -7,7 +7,7 @@
 # Vim
 ### Files
 
-| :edit \<file or directory\> | :edit $MYVIMRC | :hide edit foo.txt |
+| aaaaaaaaaaaaaaaaaaaaaaaaaaa | aaaaaaaaaaaaaa | aaaaaaaaaaaaaaaaaa |
 |-----------------------------|----------------|--------------------|
 
 Open a file to edit. If given a directory, netrw will be opened.  
