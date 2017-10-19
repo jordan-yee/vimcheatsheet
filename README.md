@@ -26,6 +26,7 @@ Add files to open in Vim, using wildcards.
 
 | one | two | three |
 |-----|-----|-------|
+|     |     |       |
 
 | head1        | head two          | three |
 |:-------------|:------------------|:------|
