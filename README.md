@@ -6,6 +6,7 @@
 
 # Vim
 ### Files
+
 | Command            | Keyboard Shortcut      | Description          |
 |:-------------------|:-----------------------|:---------------------|
 | edit               |                        | Open a file to edit. |
