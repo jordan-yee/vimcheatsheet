@@ -85,3 +85,27 @@
 | cqc                | Open command line window.                                   |
 | cqq                | Open command line window, prepopulated with innermost form. |
 
+### [vim-sexp](https://github.com/guns/vim-sexp)
+
+| **Command or Key**          | **Description**                                       |
+|:----------------------------|:------------------------------------------------------|
+| ( and )                     | Move to nearest paired structural bracket.            |
+| [[ and ]]                   | Move cursor to adjacent top-level element.            |
+| [e and ]e                   | Select adjacent element.                              |
+| ==                          | Indent compound form without moving cursor.           |
+| =-                          | Indent top-level compound form without moving cursor. |
+| \<localleader\>i\I          | Wrap compound form with () and enter insert mode.     |
+| \<localleader\>[/]          | Wrap compound form with [] and enter insert mode.     |
+| \<localleader\>w/W          | Wrap element with () and enter insert mode.           |
+| \<localleader\>e[/e]        | Wrap element with [] and enter insert mode.           |
+| \<localleader\>e{/e}        | Wrap element with {} and enter insert mode.           |
+| \<localleader\>@            | Splice compound form into parent.                     |
+| \<localleader\>o            | Raise compound form, replacing parent.                |
+| \<localleader\>O            | Raise element, replacing compound form.               |
+| ALT-j/k                     | Swap compound form with sibling element.              |
+| ALT-h/l                     | Swap element with sibling element.                    |
+| \<localleader\>b/B (custom) | Emit terminal elements (barf).                        |
+| \<localleader\>s/S (custom) | Capture adjacent elements (slurp).                    |
+| \<localleader\>h            | Insert cursor at head of compound form.               |
+| \<localleader\>l            | Insert cursor at tail of compound form.               |
+
