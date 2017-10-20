@@ -6,6 +6,7 @@
 | [Files](#files)           | [vim-table-mode](#vim-table-mode) |
 | [Windows](#windows)       | [ctrlp](#ctrlp)                   |
 | [Tabs](#tabs)             | [vim-fireplace](#vim-fireplace)   |
+|                           | [vim-sexp](#vim-sexp)             |
 
 # Vim Core
 ### Files
