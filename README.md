@@ -95,7 +95,7 @@
 | [e and ]e                   | Select adjacent element.                              |
 | ==                          | Indent compound form without moving cursor.           |
 | =-                          | Indent top-level compound form without moving cursor. |
-| \<localleader\>i\I          | Wrap compound form with () and enter insert mode.     |
+| \<localleader\>i/I          | Wrap compound form with () and enter insert mode.     |
 | \<localleader\>[/]          | Wrap compound form with [] and enter insert mode.     |
 | \<localleader\>w/W          | Wrap element with () and enter insert mode.           |
 | \<localleader\>e[/e]        | Wrap element with [] and enter insert mode.           |
