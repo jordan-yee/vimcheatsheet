@@ -1,12 +1,11 @@
 # [Vim Cheat Sheet](https://jyee117.github.io/vimcheatsheet)
 #### A quick reference for how to do useful things in Vim.
 
-| **[Vim Core](#vim-core)** | **[Vim Plugins](#vim-plugins)**   |
-|---------------------------|-----------------------------------|
-| [Files](#files)           | [vim-table-mode](#vim-table-mode) |
-| [Windows](#windows)       | [ctrlp](#ctrlp)                   |
-| [Tabs](#tabs)             | [vim-fireplace](#vim-fireplace)   |
-|                           | [vim-sexp](#vim-sexp)             |
+| **[Vim Core](#vim-core)** | **[General Plugins](#vim-plugins)** | **[Clojure Plugins](#vim-plugins)** |
+|---------------------------|-------------------------------------|-------------------------------------|
+| [Files](#files)           | [vim-table-mode](#vim-table-mode)   | [vim-fireplace](#vim-fireplace)     |
+| [Windows](#windows)       | [ctrlp](#ctrlp)                     | [vim-sexp](#vim-sexp)               |
+| [Tabs](#tabs)             |                                     |                                     |
 
 # Vim Core
 ### Files
@@ -47,15 +46,15 @@
 | CTRL-PageUp/Down or :gt/T | Switch between tab pages.             |
 | :(+/-[N])tabm             | Move tab.                             |
 
-# Vim Plugins
+# General Plugins
 ### [vim-table-mode](https://github.com/dhruvasagar/vim-table-mode)
 
-| **Command or Key**  | **Description**                                   |
-|:--------------------|:--------------------------------------------------|
-| \<leader\>tm        | Toggle table-mode.                                |
-| \<leader\>tdd       | Delete row.                                       |
-| \<leader\>tdc       | Delete column.                                    |
-| i\<pipe\>/a\<pipe\> | Inner/outer cell text object. Use with d, v, etc. |
+| **Command or Key** | **Description**                                   |
+|:-------------------|:--------------------------------------------------|
+| \<leader\>tm       | Toggle table-mode.                                |
+| \<leader\>tdd      | Delete row.                                       |
+| \<leader\>tdc      | Delete column.                                    |
+| i/a\<pipe\>        | Inner/outer cell text object. Use with d, v, etc. |
 
 ### [ctrlp](https://github.com/ctrlpvim/ctrlp.vim)
 
@@ -72,6 +71,7 @@
 | CTRL-Z             | Mark files.                                         |
 | CTRL-O             | Open marked files.                                  |
 
+# Clojure Plugins
 ### [vim-fireplace](https://github.com/tpope/vim-fireplace)
 *Note: You need to start a REPL for most fireplace commands to work.*  
 
