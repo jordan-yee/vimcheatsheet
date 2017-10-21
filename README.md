@@ -128,11 +128,13 @@
 | \<localleader\>h        | Insert cursor at head of compound form.               |
 | \<localleader\>l        | Insert cursor at tail of compound form.               |
 
-| **Custom Binds**      |                                    |
+| **Custom Binds**      | **Description**                    |
+|:----------------------|:-----------------------------------|
 | \<localleader\>b or B | Emit terminal elements (barf).     |
 | \<localleader\>s or S | Capture adjacent elements (slurp). |
 
-| (**vim-sexp-mappings-for-normal-people**)[https://github.com/tpope/vim-sexp-mappings-for-regular-people] |                                             |
+| [**vim-sexp-mappings-for-normal-people**](https://github.com/tpope/vim-sexp-mappings-for-regular-people) | **Description**                             |
+|:---------------------------------------------------------------------------------------------------------|:--------------------------------------------|
 | W/B                                                                                                      | Move to beginning of next/previous element. |
 | E/gE                                                                                                     | Move to tail of next/previous element.      |
 | \>f/\<f                                                                                                  | Move a form right/left.                     |
