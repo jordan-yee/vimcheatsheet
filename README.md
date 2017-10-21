@@ -1,12 +1,12 @@
 # Vim Cheat Sheet
 #### A quick reference for how to do useful things in Vim.
 
-| **[Vim Core](#vim-core)** | **[General Plugins](#vim-plugins)** | **[Clojure Plugins](#vim-plugins)** |
-|---------------------------|-------------------------------------|-------------------------------------|
-| [Files](#files)           | [vim-table-mode](#vim-table-mode)   | [vim-fireplace](#vim-fireplace)     |
-| [Windows](#windows)       | [ctrlp](#ctrlp)                     | [vim-sexp](#vim-sexp)               |
-| [Tabs](#tabs)             | [fugitive](#fugitive)               |                                     |
-|                           | [vim-surround](#vim-surround)       |                                     |
+| **[Vim Core](#vim-core)** | **[General Plugins](#general-plugins)** | **[Clojure Plugins](#clojure-plugins)** |
+|---------------------------|-----------------------------------------|-----------------------------------------|
+| [Files](#files)           | [vim-table-mode](#vim-table-mode)       | [vim-fireplace](#vim-fireplace)         |
+| [Windows](#windows)       | [ctrlp](#ctrlp)                         | [vim-sexp](#vim-sexp)                   |
+| [Tabs](#tabs)             | [fugitive](#fugitive)                   |                                         |
+|                           | [vim-surround](#vim-surround)           |                                         |
 
 # Vim Core
 ### Files
