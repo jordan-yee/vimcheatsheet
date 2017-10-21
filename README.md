@@ -80,19 +80,14 @@
 | cc (in status)     | Execute git commit.                                         |
 | - (in status)      | Add/reset a files changes.                                  |
 | p (in status)      | Add/reset a files changes with --patch.                     |
+| :Gw                | Write to file and stage results.                            |
 | :Gcommit           | Commit changes.                                             |
 | :Gpush             | Execute git push, loading results into quickfix list (:cw). |
+| :Gpull             | Execute git pull, loading errors into quickfix list (:cw).  |
 | :Gdiff             | Diff staged version of file with working tree version.      |
-| :Gblame            | Open git blame.                                             |
-| ENTER (in blame)   | Edit commit.                                                |
-| o (in blame)       | Edit commit in a split.                                     |
-| :Gedit (in blame)  | Return to working tree version.                             |
 | :Gmove             | Executes git mv and renames buffer.                         |
 | :Gdelete           | Executes git rm and deletes buffer.                         |
-| :Ggrep             | Search working tree or commit with git grep.                |
 | :Glog              | Load all revisions of file into quickfix list (:cw).        |
-| :Gread             | git checkout on buffer.                                     |
-| :Gwrite            | Writes to both working tree and index versions of file.     |
 | :Git               | Run a git command.                                          |
 | :Git!              | Open output of a command in a temp file.                    |
 
