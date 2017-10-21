@@ -5,10 +5,19 @@
 
 section {
   width: 800px;
+  margin-top: 20px;
 }
 
 @media print, screen and (max-width: 1060px) {
   section {
     max-width: 800px;
+    margin-top: 20px;
+  }
+}
+
+@media print, screen and (max-width: 720px) {
+  section {
+    width: auto;
+    margin-top: 0;
   }
 }
