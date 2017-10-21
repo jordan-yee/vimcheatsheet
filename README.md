@@ -132,3 +132,8 @@
 | \<localleader\>b or B | Emit terminal elements (barf).     |
 | \<localleader\>s or S | Capture adjacent elements (slurp). |
 
+| (**vim-sexp-mappings-for-normal-people**)[https://github.com/tpope/vim-sexp-mappings-for-regular-people] |                                             |
+| W/B                                                                                                      | Move to beginning of next/previous element. |
+| E/gE                                                                                                     | Move to tail of next/previous element.      |
+| \>f/\<f                                                                                                  | Move a form right/left.                     |
+| \>e/\<e                                                                                                  | Move an element right/left.                 |
