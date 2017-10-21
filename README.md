@@ -6,6 +6,7 @@
 | [Files](#files)           | [vim-table-mode](#vim-table-mode)   | [vim-fireplace](#vim-fireplace)     |
 | [Windows](#windows)       | [ctrlp](#ctrlp)                     | [vim-sexp](#vim-sexp)               |
 | [Tabs](#tabs)             | [fugitive](#fugitive)               |                                     |
+|                           | [vim-surround](#vim-surround)       |                                     |
 
 # Vim Core
 ### Files
@@ -90,6 +91,20 @@
 | :Glog              | Load all revisions of file into quickfix list (:cw).        |
 | :Git               | Run a git command.                                          |
 | :Git!              | Open output of a command in a temp file.                    |
+
+### [vim-surround](https://github.com/tpope/vim-surround)
+
+| **Command or Key**                  | **Description**                                                              |
+|-------------------------------------|------------------------------------------------------------------------------|
+| ds{surrounding}                     | Delete surrounding instances of {surrounding}. ex: ds"                       |
+| cs{current}{new}                    | Change surrounding instances of {current} with {new}. ex: cs"'               |
+| ys{motion/text object}{surrounding} | Surround region selected by {motion/text object} with {surrounding}          |
+| yss{surrounding}                    | Surround current line with {surrounding}, ignoring leading whitespace.       |
+| yS / YSS                            | Same as ys/yss, but places surrounded text on its own line.                  |
+| S{surrounding} (visual mode)        | Surround selection with {surrounding} (visual mode).                         |
+| {surrounding} (brackets)            | (, ), {, }, [, ], <, and >. Opening adds inner whitespace, closing doesn't.  |
+| {surrounding} (quotes)              | ', ", and `. These are only searched for on current line.                    |
+| {surrounding} (tags)                | t or <tagname. ex: typing yswtdiv<enter> will surround a word with div tags. |
 
 # Clojure Plugins
 ### [vim-fireplace](https://github.com/tpope/vim-fireplace)
