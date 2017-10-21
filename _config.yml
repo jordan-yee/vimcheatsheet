@@ -1,4 +1,4 @@
-theme: jekyll-theme-time-machine
+theme: jekyll-theme-leap-day
 title: Vim Cheat Sheet
 description: A quick reference for useful Vim commands, including plugins.
 show_downloads: false
