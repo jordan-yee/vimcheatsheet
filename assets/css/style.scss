@@ -1,0 +1,12 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+section {
+  width: 800px;
+}
+
+@media print, screen and (max-width: 1060px) section {
+  max-width: 800px;
+}
