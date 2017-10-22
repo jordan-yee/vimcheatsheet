@@ -3,10 +3,10 @@
 
 | **[Vim Core](#vim-core)** | **[General Plugins](#general-plugins)** | **[Clojure Plugins](#clojure-plugins)** |
 |---------------------------|-----------------------------------------|-----------------------------------------|
-| [Files](#files)           | [vim-table-mode](#vim-table-mode)       | [vim-fireplace](#vim-fireplace)         |
-| [Windows](#windows)       | [ctrlp](#ctrlp)                         | [vim-sexp](#vim-sexp)                   |
+| [Files](#files)           | [table-mode](#table-mode)               | [fireplace](#fireplace)                 |
+| [Windows](#windows)       | [ctrlp](#ctrlp)                         | [sexp](#sexp)                           |
 | [Tabs](#tabs)             | [fugitive](#fugitive)                   |                                         |
-|                           | [vim-surround](#vim-surround)           |                                         |
+|                           | [surround](#surround)                   |                                         |
 
 # Vim Core
 ### Files
@@ -49,7 +49,7 @@
 | :(+/-[N])tabm             | Move tab.                             |
 
 # General Plugins
-### [vim-table-mode](https://github.com/dhruvasagar/vim-table-mode)
+### [table-mode](https://github.com/dhruvasagar/vim-table-mode)
 
 | **Command or Key** | **Description**                                   |
 |:-------------------|:--------------------------------------------------|
@@ -92,7 +92,7 @@
 | :Git               | Run a git command.                                          |
 | :Git!              | Open output of a command in a temp file.                    |
 
-### [vim-surround](https://github.com/tpope/vim-surround)
+### [surround](https://github.com/tpope/vim-surround)
 
 | **Command or Key**                  | **Description**                                                              |
 |-------------------------------------|------------------------------------------------------------------------------|
@@ -107,7 +107,7 @@
 | {surrounding} (tags)                | t or <tagname. ex: typing yswtdiv<enter> will surround a word with div tags. |
 
 # Clojure Plugins
-### [vim-fireplace](https://github.com/tpope/vim-fireplace)
+### [fireplace](https://github.com/tpope/vim-fireplace)
 *Note: You need to start a REPL for most fireplace commands to work.*  
 
 | **Command or Key** | **Description**                                             |
@@ -121,7 +121,7 @@
 | cqc                | Open command line window.                                   |
 | cqq                | Open command line window, prepopulated with innermost form. |
 
-### [vim-sexp](https://github.com/guns/vim-sexp)
+### [sexp](https://github.com/guns/vim-sexp)
 
 | **Command or Key**      | **Description**                                       |
 |:------------------------|:------------------------------------------------------|
