@@ -6,7 +6,7 @@
 | [Files](#files)           | [table-mode](#table-mode)               | [fireplace](#fireplace)                 |
 | [Windows](#windows)       | [ctrlp](#ctrlp)                         | [sexp](#sexp)                           |
 | [Tabs](#tabs)             | [fugitive](#fugitive)                   |                                         |
-|                           | [surround](#surround)                   |                                         |
+| [Misc](#misc)             | [surround](#surround)                   |                                         |
 
 # Vim Core
 ### Files
@@ -47,6 +47,12 @@
 | :tabo                     | Close all but the current tab page.   |
 | CTRL-PageUp/Down or :gt/T | Switch between tab pages.             |
 | :(+/-[N])tabm             | Move tab.                             |
+
+### Misc
+
+| **Command or Key** | **Description**                     |
+|:-------------------|:------------------------------------|
+| gx                 | Open URL under cursor in a browser. |
 
 # General Plugins
 ### [table-mode](https://github.com/dhruvasagar/vim-table-mode)
