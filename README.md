@@ -50,9 +50,10 @@
 
 ### Misc
 
-| **Command or Key** | **Description**                     |
-|:-------------------|:------------------------------------|
-| gx                 | Open URL under cursor in a browser. |
+| **Command or Key**   | **Description**                                            |
+|:---------------------|:-----------------------------------------------------------|
+| gx                   | Open URL under cursor in a browser.                        |
+| CTRL-O (insert mode) | Execute a normal mode command without leaving insert mode. |
 
 # General Plugins
 ### [table-mode](https://github.com/dhruvasagar/vim-table-mode)
