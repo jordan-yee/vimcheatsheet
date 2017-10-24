@@ -149,6 +149,10 @@
 | ALT-h or l              | Swap element with sibling element.                    |
 | \<localleader\>h        | Insert cursor at head of compound form.               |
 | \<localleader\>l        | Insert cursor at tail of compound form.               |
+| af/if (Text Object)     | Select outer/inner list.                              |
+| aF/iF (Text Object)     | Select outer/inner top-level list.                    |
+| as/if (Text Object)     | Select outer/inner string.                            |
+| ae/ie (Text Object)     | Select outer/inner element.                           |
 
 | **Custom Binds**      | **Description**                    |
 |:----------------------|:-----------------------------------|
