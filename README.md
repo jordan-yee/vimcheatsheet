@@ -54,6 +54,7 @@
 |:---------------------|:-----------------------------------------------------------|
 | gx                   | Open URL under cursor in a browser.                        |
 | CTRL-O (insert mode) | Execute a normal mode command without leaving insert mode. |
+| :ret                 | Convert tabs to spaces.                                    |
 
 # General Plugins
 ### [table-mode](https://github.com/dhruvasagar/vim-table-mode)
@@ -115,7 +116,7 @@
 
 # Clojure Plugins
 ### [fireplace](https://github.com/tpope/vim-fireplace)
-*Note: You need to start a REPL for most fireplace commands to work.*  
+*Note: You need to start a REPL for most fireplace commands to work.*
 
 | **Command or Key** | **Description**                                             |
 |:-------------------|:------------------------------------------------------------|
