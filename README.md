@@ -7,6 +7,7 @@
 | [Windows](#windows)       | [ctrlp](#ctrlp)                         | [sexp](#sexp)                           |
 | [Tabs](#tabs)             | [fugitive](#fugitive)                   |                                         |
 | [Misc](#misc)             | [surround](#surround)                   |                                         |
+| [Diff Mode](#diff-mode)   |                                         |                                         |
 
 # Vim Core
 ### Files
@@ -47,6 +48,15 @@
 | :tabo                     | Close all but the current tab page.   |
 | CTRL-PageUp/Down or :gt/T | Switch between tab pages.             |
 | :(+/-[N])tabm             | Move tab.                             |
+
+### Diff Mode
+
+| **Command or Key** | **Description**                                   |
+|:-------------------|:--------------------------------------------------|
+| :diffs {file}      | Compare current window with {file}.               |
+| \[c and \]c        | Jump to next/previous diffs.                      |
+| do                 | Set diff in cuffent buffer to match other buffer. |
+| dp                 | Set other buffer to match diff in current buffer. |
 
 ### Misc
 
