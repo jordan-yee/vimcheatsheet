@@ -6,8 +6,8 @@
 | [Files](#files)           | [table-mode](#table-mode)               | [fireplace](#fireplace)                 |
 | [Windows](#windows)       | [ctrlp](#ctrlp)                         | [sexp](#sexp)                           |
 | [Tabs](#tabs)             | [fugitive](#fugitive)                   |                                         |
-| [Misc](#misc)             | [surround](#surround)                   |                                         |
-| [Diff Mode](#diff-mode)   |                                         |                                         |
+| [Diff Mode](#diff-mode)   | [surround](#surround)                   |                                         |
+| [Misc](#misc)             |                                         |                                         |
 
 # Vim Core
 ### Files
