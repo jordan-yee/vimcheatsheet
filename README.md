@@ -138,6 +138,7 @@
 | cp{motion}         | Evaluate the code indicated by {motion}.                    |
 | cqc                | Open command line window.                                   |
 | cqq                | Open command line window, prepopulated with innermost form. |
+| cpr                | Require :reload the given/current namespace.                |
 
 ### [sexp](https://github.com/guns/vim-sexp)
 
